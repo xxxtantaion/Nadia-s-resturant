@@ -11,7 +11,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(images/R.jpg);
+    background-image: url(R.jpg);
     background-size: cover;
    
 }
@@ -409,4 +409,5 @@ body{
 }
 .massj{
     grid-area: massj;
+
 }
