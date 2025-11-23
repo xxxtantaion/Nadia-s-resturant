@@ -1,0 +1,412 @@
+body{ 
+    padding: 0%;
+    margin: 0%;
+}
+.father-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/R.jpg);
+    background-size: cover;
+   
+}
+.home{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 30vh;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.sidebar{
+    display: flex;
+    gap: 20px;
+}
+.header .sidebar li a{
+    text-decoration: none;
+    color:azure;
+}
+.header .sidebar li{
+    list-style: none;
+}
+.sidebar li:hover{
+    border-bottom: solid 2px gold;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+}
+.main h1 span{
+    color: gold;
+}
+.main button{
+    height: 40px;
+    width: 130px;
+    border: solid 1px azure;
+    border-radius: 7px;
+    background-color: transparent;
+}
+.main button:hover{
+    background-color: gold;
+}
+.about{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 2vh;
+}
+.main2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 5px;
+
+}
+.title p{
+    color: gray;
+    font-size: small;
+}
+.title h2{
+    color: rgb(40, 54, 62);
+}
+.content{
+    width: 50%;
+    color: gray;
+    font-size: small;
+    line-height: 20px;
+}
+.content button{
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: rgb(40, 54, 62);
+    color: azure;
+}
+.content button:hover{
+    border: solid 1px rgb(40, 54, 62);
+    background-color: transparent;
+    color: black;
+}
+.images{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.images1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.images2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.img22{
+    width: 150px;
+    height: 80px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.menu{
+    height: 50vh;
+    width: 100%;
+    background-image: url(images/OIPI\ \(2\).webp);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.special-off{
+    line-height: 5px;
+}
+.special-off p{
+    color: gray;
+    font-size: small;
+    text-align: center;
+}
+.special-off h2{
+    color: gold;
+}
+.plates{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+}
+.menu .plates div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+    color: azure;
+}
+.imgpp{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.menu .plates div p{
+    font-size: small;
+}
+.price{
+    color: gold;
+}
+.price span{
+    text-decoration: line-through;
+    color: azure;
+}
+.gallery-container{
+    height: 100vh;
+    width: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+}
+.title-gallery{
+    line-height: 10px;
+}
+.title-gallery p{
+    color: gray;
+    font-size: small;
+    text-align: center;
+}
+.gallery-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.gallery1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.gallery2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.p1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+.p1 .gas{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.p1 .gallery-price pre span{
+    color: gold;
+}
+.p1 .gallery-price p{
+    color: gray;
+    font-size: small;
+}
+.p1 .gallery-price pre{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: rgba(128, 128, 128, 0.306);
+    text-decoration-thickness: 1px;
+}
+.contact{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.timeof{
+    height: 25vh;
+    width: auto;
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.time-food{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1px;
+}
+.time-food p{
+    font-size: small;
+    color: gray;
+}
+.time-food i{
+    font-size: 50px;
+}
+.our-food0{
+    height: 50vh;
+    background-image: url(images/OIPI\ \(2\).webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    
+}
+.ttof{
+    color: azure;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+.our-food1{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    
+}
+.our-food2{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.igf{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.igf:hover{
+    filter: brightness(70%);
+}
+.add{
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 80px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    gap: 60px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 60px;
+}
+.socie{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.socie a i{
+    font-size: larger;
+    color: gray;
+}
+.addres4 p{
+    color: gray;
+}
+.workhours pre{
+    color: gray;
+}
+.user{
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: repeat(2 , 150px);
+    grid-template-rows: repeat(4 , 20px);
+    row-gap: 15px;
+    column-gap: 40px;
+    grid-template-areas: 
+    "name ."
+    "email button"
+    "subject button"
+    "massj ."
+    ;
+}
+.user input{
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.164);
+    border: 1px solid black;
+}
+.user #massj{
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+.button{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.566);
+    grid-area: button;
+    align-self: center;
+}
+.button:hover{
+    border: 3px solid gold ;
+    background-color: transparent;
+}
+.name{
+    grid-area: name;
+}
+.email{
+    grid-area: email;
+}
+.subject{
+    grid-area: subject;
+}
+.massj{
+    grid-area: massj;
+}
